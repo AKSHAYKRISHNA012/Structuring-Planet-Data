@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Planets Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            margin: 0 auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f0f0f0;
+        }
+
+        .planet-name {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Solar System Planets Data</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Planet</th>
+                <th>Distance from Sun (AU)</th>
+                <th>Diameter (km)</th>
+                <th>Mass (Earth = 1)</th>
+                <th>Orbital Period</th>
+                <th>Average Temperature</th>
+                <th>Number of Moons</th>
+                <th>Atmosphere</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="planet-name">Mercury</td>
+                <td>0.39 AU</td>
+                <td>4,879</td>
+                <td>0.055</td>
+                <td>88 days</td>
+                <td>167°C</td>
+                <td>0</td>
+                <td>Extremely thin</td>
+                <td>Terrestrial</td>
+            </tr>
+            <tr>
+                <td class="planet-name">Venus</td>
+                <td>0.72 AU</td>
+                <td>12,104</td>
+                <td>0.815</td>
+                <td>225 days</td>
+                <td>464°C</td>
+                <td>0</td>
+                <td>96% CO₂, thick</td>
+                <td>Terrestrial</td>
+            </tr>
+            <tr>
+                <td class="planet-name">Earth</td>
+                <td>1.00 AU</td>
+                <td>12,756</td>
+                <td>1.000</td>
+                <td>365.25 days</td>
+                <td>15°C</td>
+                <td>1</td>
+                <td>78% N₂, 21% O₂</td>
+                <td>Terrestrial</td>
+            </tr>
+            <tr>
+                <td class="planet-name">Mars</td>
+                <td>1.52 AU</td>
+                <td>6,792</td>
+                <td>0.107</td>
+                <td>687 days</td>
+                <td>-65°C</td>
+                <td>2</td>
+                <td>95% CO₂, thin</td>
+                <td>Terrestrial</td>
+            </tr>
+            <tr>
+                <td class="planet-name">Jupiter</td>
+                <td>5.20 AU</td>
+                <td>142,984</td>
+                <td>317.8</td>
+                <td>11.9 years</td>
+                <td>-110°C</td>
+                <td>95</td>
+                <td>89% H₂, 10% He</td>
+                <td>Gas Giant</td>
+            </tr>
+            <tr>
+                <td class="planet-name">Saturn</td>
+                <td>9.58 AU</td>
+                <td>120,536</td>
+                <td>95.2</td>
+                <td>29.5 years</td>
+                <td>-140°C</td>
+                <td>146</td>
+                <td>96% H₂, 3% He</td>
+                <td>Gas Giant</td>
+            </tr>
+            <tr>
+                <td class="planet-name">Uranus</td>
+                <td>19.20 AU</td>
+                <td>51,118</td>
+                <td>14.5</td>
+                <td>84 years</td>
+                <td>-195°C</td>
+                <td>28</td>
+                <td>83% H₂, 15% He, 2% CH₄</td>
+                <td>Ice Giant</td>
+            </tr>
+            <tr>
+                <td class="planet-name">Neptune</td>
+                <td>30.05 AU</td>
+                <td>49,528</td>
+                <td>17.1</td>
+                <td>165 years</td>
+                <td>-200°C</td>
+                <td>16</td>
+                <td>80% H₂, 19% He, 1% CH₄</td>
+                <td>Ice Giant</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
